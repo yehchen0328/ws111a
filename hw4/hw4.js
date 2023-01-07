@@ -5,7 +5,7 @@ const db = new DB("mydb.db");
 const app = new Application()
 const router = new Router()
 
-db.query("CREATE TABLE IF NOT EXISTS users (name TEXT, comment TEXT)");//此程式碼為複製顏瑋成程式碼
+db.query("CREATE TABLE IF NOT EXISTS users (name TEXT, comment TEXT)");//此程式碼為複製顏瑋成同學的程式碼
 
 app.use(router.routes())
 app.use(router.allowedMethods())
